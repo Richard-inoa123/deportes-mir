@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>el tenis</title>
+    <link rel="stylesheet" href="uwo.css">
+  </head>
+  <body>
+
+
+        <div id="image">
+        <section class="showcase">
+          <header>
+            <h2 class="logo">Que es</h2>
+            <div class="toggle"></div>
+          </header>
+        <body>
+            <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
+          <div class="overlay"></div>
+          <div class="text">
+            <h3>el tenis</h3>
+            <img src="tenis-reglas.jpg" width="500" alt="">
+
+          <p>El tenis es un juego que se juega en una cancha de forma rectangular, que puede ser una de las muchas superficies. Se juega con dos jugadores (partido individual) o cuatro jugadores (partido doble). Los jugadores se paran en lados opuestos de la red y usan una raqueta de cuerda para golpear la pelota de un lado a otro.</p>
+
+          <p>historia y origen</p>
+
+          <p>Si hablamos del origen del tenis, tenemos un antecedente muy remoto de este juego que se practicaba ya en Persia y Egipto seis siglos a. C., pero eso sí, con la salvedad de que se jugaba con la mano. Los griegos y también los romanos se aficionaron a este juego, y lo expandieron por todos los países del mar Mediterráneo.</p>
+
+          <p>Algunos historiadores autorizados, aseguran que los árabes lo jugaban en tiempos de Carlomagno en España, y existe documentación del 1300, alusiva a un juego semejante, el de la Boude.</p>
+
+          <p>Parece que el rey Luis X de Francia, murió de un enfriamiento tras una partida de tenis en 1316. A Carlos I de España, le entusiasmaba un juego de pelota muy parecido al tenis, practicado también en las cortes inglesa y francesa.</p>
+
+          <p>En Francia el jeu de paumeya, se jugaba en interior, y es el predecesor del tenis moderno. En un poema escrito en latín por un poeta elegiaco francés, donde se documenta este juego, se indica que el jugador que golpeaba la pelota gritaba: excipe = ¡tened!</p>
+
+          <p>Reglas del tenis</p>
+          <p>El jugador solo puede golpear la pelota una vez por turno.</p>
+
+          <p>El juego lleva una puntuación inusual: el primer punto se contabilizará como 15 puntos, el segundo como 30 puntos y el tercero como 40 puntos.</p>
+
+          <p>El partido se gana con 2 sets o con 3 sets dependiendo si se juega al mejor de 3 o al mejor de 5.</p>
+
+            <a href="#">Explore</a>
+          </div>
+          <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          </ul>
+        </section>
+        <div class="menu">
+          <ul>
+            <li><a href="fisica.html">Home</a></li>
+
+          </ul>
+        </div>
+          </div>
+
+          <script>
+          const menuToggle = document.querySelector('.toggle');
+                const showcase = document.querySelector('.showcase');
+
+                menuToggle.addEventListener('click', () => {
+                  menuToggle.classList.toggle('active');
+                  showcase.classList.toggle('active');
+                })
+          </script>
+  </body>
+</html>
